@@ -9,8 +9,36 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#000000",
+        secondary: "#ffffff",
+        primaryText: "#f5f5f5",
+        alert: "#ff3040",
+        followBtn: "#0095f6",
+        followedText: "#a8a8a8",
+        footerText: "#737373",
+      },
+      fontFamily: {
+        sans: [
+          "'Instagram Sans UI'",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "'Segoe UI'",
+          "Roboto",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+        ],
+      },
+      fontWeight: {
+        thin: "100",
+        extralight: "200",
+        light: "300",
+        normal: "400",
+        medium: "500",
+        semibold: "600",
+        bold: "700",
+        extrabold: "800",
+        black: "900",
       },
     },
   },
